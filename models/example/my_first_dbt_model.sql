@@ -11,9 +11,9 @@
 
 with source_data as (
 
-    select 1 as id,'praveen' nm
+    select 1 as id,'praveen' nm,'ram' k
     union all
-    select null as id,'praveen' nm
+    select null as id,'praveen' nm,'ram' k
 
 )
 
